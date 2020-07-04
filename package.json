@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "copy-config": "cp docs/assets/config.json src/assets/config.json"
+    "copy-config": "cp docs/assets/config.json src/assets/config.json",
+    "deploy": "npm run build && git add . && git commit -m 'update' && git push origin master"
   },
   "husky": {
     "hooks": {
