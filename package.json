@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --aot --prod --baseHref='https://meldiron.github.io/howrse-kucharka-cz/'",
+    "build": "ng build --aot --prod --baseHref='https://meldiron.github.io/howrse-cz-kucharka/'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
