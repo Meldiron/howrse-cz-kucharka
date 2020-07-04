@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --aot --prod --baseHref='https://meldiron.github.io/howrse-kucharka-cz/'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "copy-config": "cp dist/kucharka/assets/config.json src/assets/config.json"
+    "copy-config": "cp docs/assets/config.json src/assets/config.json"
   },
   "husky": {
     "hooks": {
