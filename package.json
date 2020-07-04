@@ -8,12 +8,12 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "copy-config": "cp src/assets/config.json config.json"
+    "copy-config": "cp dist/kucharka/assets/config.json src/assets/config.json"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm copy-config",
-      "pre-push": "npm copy-config"
+      "pre-commit": "npm run copy-config",
+      "pre-push": "npm run copy-config"
     }
   },
   "private": true,

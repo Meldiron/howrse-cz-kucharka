@@ -65,14 +65,22 @@
         <tbody>
           <tr *ngFor="let record of table.records; let recordI = index">
             <th *ngFor="let row of record.columns; let rowI = index">
-              <span *ngIf="row.badgeBefore" class="badge badge-primary">
-                {{ row.badgeBefore }}
+              <span
+                *ngIf="row.badgeBefore"
+                [ngClass]="['badge-' + row.badgeBefore.type]"
+                class="badge"
+              >
+                {{ row.badgeBefore.text }}
               </span>
               <span [ngStyle]="getStyle(table, recordI, rowI)">
                 {{ row.text }}
               </span>
-              <span *ngIf="row.badgeAfter" class="badge badge-primary">
-                {{ row.badgeAfter }}
+              <span
+                *ngIf="row.badgeAfter"
+                [ngClass]="['badge-' + row.badgeAfter.type]"
+                class="badge"
+              >
+                {{ row.badgeAfter.text }}
               </span>
             </th>
           </tr>
