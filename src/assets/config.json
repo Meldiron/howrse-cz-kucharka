@@ -1,0 +1,104 @@
+{
+  "menu": {
+    "alerts": [
+      {
+        "type": "danger",
+        "text": "Je toho moc, prosím o důkladné pročtení, doplnění, upravení"
+      }
+    ],
+    "items": [
+      {
+        "tableId": "spravy",
+        "title": "Zprávy"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "id": "spravy",
+      "title": "1. Zpravy",
+      "description": "Tabule trestů platí pro soutromé zprávy medzi užívateli.",
+      "finishPercentage": 40,
+      "alerts": [
+        {
+          "type": "success",
+          "text": "Jeeeej ide"
+        }
+      ],
+      "headings": [
+        {
+          "title": "Predmet",
+          "isBold": true,
+          "isUppercase": true
+        },
+        {
+          "title": "Popis",
+          "isBold": false,
+          "isUppercase": false
+        },
+        {
+          "title": "Karma",
+          "isBold": false,
+          "isUppercase": false
+        },
+        {
+          "title": "Ban",
+          "isBold": false,
+          "isUppercase": false
+        }
+      ],
+      "records": [
+        {
+          "columns": [
+            {
+              "text": "obchadzeni pravidel",
+              "badgeBefore": "testik",
+              "badgeAfter": "testik2"
+            },
+            {
+              "text": "zakázané výměny"
+            },
+            {
+              "text": "-1"
+            },
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "text": "obchadzeni pravidel"
+            },
+            {
+              "text": "zakázané výměny"
+            },
+            {
+              "text": "-1"
+            },
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "text": "obchadzeni pravidel"
+            },
+            {
+              "text": "zakázané výměny"
+            },
+            {
+              "text": "-1"
+            },
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

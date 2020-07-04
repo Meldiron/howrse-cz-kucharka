@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kucharka"
+    }
+  },
+  "defaultProject": "kucharka",
+  "cli": {
+    "analytics": "9dc08260-d688-4962-b980-2c75132fe18a"
+  }
 }
